@@ -1,11 +1,19 @@
 {
-  "name": "aternosbot",
+ "name": "aternosbot",
   "version": "1.0.0",
-  "main": "bot.js",
-  "scripts": {
-    "start": "node bot.js"
-  },
+  "description": "",
+  "main": "app.js",
   "dependencies": {
     "bedrock-protocol": "PrismarineJS/bedrock-protocol"
-  }
+  },
+  "scripts": {
+    "start": "node app.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "eslint": "^9.39.0"
+  } 
 }
