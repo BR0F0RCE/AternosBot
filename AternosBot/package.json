@@ -1,16 +1,11 @@
 {
   "name": "aternosbot",
   "version": "1.0.0",
-  "description": "",
-  "main": "app.js",
+  "main": "bot.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node bot.js"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "type": "commonjs",
-  "devDependencies": {
-    "eslint": "^9.39.0"
+  "dependencies": {
+    "bedrock-protocol": "github:PrismarineJS/bedrock-protocol"
   }
 }
